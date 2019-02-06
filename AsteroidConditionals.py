@@ -11,8 +11,8 @@
 # FILL THESE COMMENTS IN
 #*****************************************
 # YOUR NAME: Patrick Wright
-# NUMBER OF HOURS TO COMPLETE:
-# YOUR COLLABORATION STATEMENT(s):
+# NUMBER OF HOURS TO COMPLETE: 10 minutes
+# YOUR COLLABORATION STATEMENT(s): I worked alone on this project.
 #
 #
 #*****************************************
@@ -128,7 +128,7 @@ while True:
 
     sleep(Frame_Rate_In_Milliseconds) #Delay between animations
 
-    if False :  #Test to see if the ship has hit an asteroid
+    if  ship_X == asteroid_x and ship_Y == asteroid_y:  #Test to see if the ship has hit an asteroid
         # STEP 1 ##########################################################
         # Write a logical expression (replace the "False") above to determine
         # if the ship and asteroid are at the same location
@@ -139,7 +139,7 @@ while True:
     hide_ship(ship_X)
     hide_asteroid(asteroid_x, asteroid_y)
 
-    if False:   #Test to see if the current asteroid is at the bottom
+    if asteroid_y == 4:   #Test to see if the current asteroid is at the bottom
         # STEP 2 ###########################################################
         # Write a logical expression (replace the "False") above to determine
         # if the asteroid is at the bottom of the screen. That is if asteroid_y
