@@ -1,5 +1,6 @@
 # Name: Patrick Wright
 # Partners: Nick Ragusa and David Fricke
+# Est. time: ~5 hours
 
 import microbit
 import math
