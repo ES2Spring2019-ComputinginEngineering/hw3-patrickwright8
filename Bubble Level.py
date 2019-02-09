@@ -1,6 +1,6 @@
 # Name: Patrick Wright
 # Partners: Nick Ragusa and David Fricke
-# Est. time: ~5 hours
+# Est. time: ~5 hours in class time
 
 import microbit
 import math
@@ -20,6 +20,7 @@ while True:
     # Note: this program uses an LED bubble rather than an arrow to measure the angle.
     # Therefore, a dot on LED (4, 4) would mean that the microbit must be tilted in the direction
     # of the LED.
+    # There are 12 possible locations for the bubble, not including the center.
     if t1>-5 and t1<5 and t2>-5 and t2<5:
         microbit.display.clear()
         microbit.display.set_pixel(2, 2, 9)
